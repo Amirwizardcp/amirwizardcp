@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100b20">
+  <meta name="description" content="فروشگاه AmirWizardCP؛ خرید بسته‌های CP کالاف دیوتی موبایل">
+  <title>AmirWizardCP | فروشگاه سی‌پی</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#"><span class="brand-mark">✦</span><span>AmirWizard<span class="gold">CP</span><small>جادوی خرید مطمئن</small></span></a>
+  <nav><a href="#shop">فروشگاه</a><a href="#how">راهنمای خرید</a><a href="#support">پشتیبانی</a></nav>
+  <button class="cart-trigger" id="openCart">سبد خرید <b id="cartCount">۰</b></button>
+</header>
+<main>
+  <section class="hero">
+    <div class="hero-glow"></div>
+    <div class="hero-copy">
+      <div class="eyebrow">✧ فروشگاه تخصصی کالاف دیوتی موبایل ✧</div>
+      <h1>قدرتت رو<br><span>با CP</span> بیشتر کن</h1>
+      <p>بسته‌های سی‌پی را انتخاب کن، سفارشت را ثبت کن و برای هماهنگی به پشتیبانی روبیکا پیام بده.</p>
+      <a class="primary-btn" href="#shop">مشاهده بسته‌ها <span>←</span></a>
+      <div class="trust"><span>✦ ثبت سفارش آسان</span><span>✦ پشتیبانی روبیکا</span></div>
+    </div>
+    <div class="hero-art" aria-label="نشان جادویی فروشگاه"><div class="orb">✦</div><div class="ring ring1"></div><div class="ring ring2"></div><div class="floating">CP</div><div class="art-caption">AMIR WIZARD SHOP</div></div>
+  </section>
+
+  <section class="section" id="shop">
+    <div class="section-head"><div><div class="eyebrow">انتخاب با توست</div><h2>بسته‌های <span class="gold">CP</span></h2></div><span class="muted">قیمت‌ها به تومان</span></div>
+    <div class="notice">قیمت‌های نمایش‌داده‌شده برای شروع در سایت قرار گرفته‌اند؛ پیش از فروش نهایی حتماً آن‌ها را تأیید و به‌روزرسانی کن.</div>
+    <div class="products" id="products"></div>
+  </section>
+
+  <section class="how section" id="how">
+    <div class="section-head"><div><div class="eyebrow">ساده و سریع</div><h2>مراحل ثبت سفارش</h2></div></div>
+    <div class="steps"><article><b>۰۱</b><h3>انتخاب بسته</h3><p>بسته موردنظرت را به سبد خرید اضافه کن.</p></article><article><b>۰۲</b><h3>ثبت سفارش</h3><p>اطلاعات سفارش را بررسی و دکمه ثبت را بزن.</p></article><article><b>۰۳</b><h3>هماهنگی در روبیکا</h3><p>متن سفارش را برای پشتیبانی بفرست تا ادامه کار هماهنگ شود.</p></article></div>
+  </section>
+  <section class="support section" id="support"><div><div class="eyebrow">کنارت هستیم</div><h2>نیاز به راهنمایی داری؟</h2><p>برای پیگیری سفارش و پرسیدن سؤال، از طریق روبیکا پیام بده.</p></div><a class="primary-btn" href="https://rubika.ir/Amir_wizarde" target="_blank" rel="noopener">ورود به پشتیبانی روبیکا ↗</a>
+<a class="channel-btn" href="https://rubika.ir/joinc/FEHFCFCI0QEARKDNLAKBDNNORTQWOVHY" target="_blank" rel="noopener">عضویت در کانال روبیکا ↗</a></section>
+</main>
+<footer><a class="brand" href="#"><span class="brand-mark">✦</span><span>AmirWizard<span class="gold">CP</span></span></a><span>© AmirWizardCP — تمامی حقوق محفوظ است.</span><a href="#rules">قوانین خرید</a></footer>
+<div class="modal-backdrop" id="cartModal" hidden>
+  <section class="cart-modal" role="dialog" aria-modal="true" aria-labelledby="cartTitle">
+    <div class="modal-head"><h2 id="cartTitle">سبد خرید تو</h2><button class="icon-btn" id="closeCart" aria-label="بستن">×</button></div>
+    <div id="cartItems" class="cart-items"></div>
+    <div class="cart-total"><span>مجموع</span><strong id="cartTotal">۰ تومان</strong></div>
+    <label class="field-label" for="playerId">آیدی بازی (اختیاری)</label><input id="playerId" placeholder="شناسه بازیکن">
+    <button class="primary-btn full" id="checkout">ثبت سفارش در روبیکا ↗</button>
+    <p class="tiny">با زدن این دکمه، متن سفارش کپی می‌شود و صفحه پشتیبانی روبیکا باز خواهد شد. پرداخت آنلاین در این نسخه فعال نیست.</p>
+  </section>
+</div>
+<section class="rules" id="rules"><h2>قوانین</h2><p>ثبت سفارش در این نسخه به معنی پرداخت یا تحویل خودکار نیست. مبلغ و موجودی نهایی را فقط پس از تأیید پشتیبانی پرداخت کن. هرگز رمز عبور حساب بازی یا کدهای ورودت را برای کسی ارسال نکن.</p></section>
+<script src="app.js"></script>
+</body></html>
